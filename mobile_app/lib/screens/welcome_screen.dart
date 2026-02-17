@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+class WelcomeScreen extends StatelessWidget {
+  const WelcomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -86,7 +86,9 @@ class LoginScreen extends StatelessWidget {
                                       color: Color(0xffffa94d),
                                       borderRadius: BorderRadius.circular(30.r)),
                                   child: TextButton(
-                                      onPressed: () {},
+                                      onPressed: () {
+                                        context.push("/sign_in");
+                                      },
                                       child: Text(
                                         "Login",
                                         style: TextStyle(

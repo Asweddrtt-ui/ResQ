@@ -202,7 +202,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       Center(
                         child: InkWell(
                           onTap: () {
-                            context.push("/login");
+                            context.push("/sign_in");
                           },
                           child: RichText(
                             text: TextSpan(

@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mobile_app/go_router/router_generator.dart';
-import 'package:mobile_app/screens/login_screen.dart';
+import 'package:mobile_app/screens/welcome_screen.dart';
 import 'package:mobile_app/screens/role_selecting_screen.dart';
 
 void main() {
