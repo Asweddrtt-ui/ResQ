@@ -25,11 +25,16 @@ class WelcomeScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Container(
-                        height: 70.h, // Adjusted: 70 (Was 100)
-                        width: 70.w,  // Adjusted: 70 (Was 100)
+                        height: 70.h,
+                        width: 70.w,
                         decoration: BoxDecoration(
                             color: Colors.green,
                             borderRadius: BorderRadius.circular(15.r)),
+                        child: Image.asset(
+                          "assets/images/logo.PNG",
+                          height: 40.h,
+                          width: 60.w,
+                        ),
                       ),
                       SizedBox(
                         height: 15.h,

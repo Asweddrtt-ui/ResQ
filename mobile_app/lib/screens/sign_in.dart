@@ -115,7 +115,7 @@ class _SignInScreenState extends State<SignInScreen> {
                         ),
                         child: TextButton(
                           onPressed: () {
-                            // TODO: Perform Login Logic
+                            context.pushReplacement("/home");
                           },
                           child: Text(
                             "Login",
