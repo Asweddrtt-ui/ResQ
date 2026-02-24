@@ -135,8 +135,13 @@ class _RoleSelectionScreenState extends State<RoleSelectionScreen> {
                             onPressed: () {
                               if (_selectedIndex == 0) {
                                 context.push("/user_reg");
-
                               }
+                              else if (_selectedIndex == 1) {
+                                context.push("/shelter_reg");
+                              }
+                              else if (_selectedIndex == 2) {
+                                context.push("/clinic_reg");
+                              }  
                             },
                             child: Text(
                               "Continue",

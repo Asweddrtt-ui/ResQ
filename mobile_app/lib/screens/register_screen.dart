@@ -184,7 +184,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           borderRadius: BorderRadius.circular(30.r),
                         ),
                         child: TextButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            context.push("/email_ver");
+                          },
                           child: Text(
                             "Create account",
                             style: TextStyle(
